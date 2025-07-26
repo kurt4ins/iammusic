@@ -1,0 +1,23 @@
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.sqlite3
+
+# Django
+db.sqlite3
+*.log
+*.pot
+*.pyc
+media/
+staticfiles/
+
+# Poetry
+poetry.lock
+
+# React
+frontend/node_modules/
+.env

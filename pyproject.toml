@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "espire-music"
+version = "0.1.0"
+description = ""
+authors = ["kurt4ins <zhenya_arz@bk.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.2.4"
+djangorestframework = "^3.16.0"
+django-cors-headers = "^4.7.0"
+dotenv = "^0.9.9"
+djangorestframework-simplejwt = "^5.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
